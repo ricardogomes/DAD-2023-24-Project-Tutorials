@@ -6,7 +6,7 @@ hero:
   name: "Project Tutorials"
   text: "Tutorials related to the DAD 2023/24 course project"
   image:
-    src: /assets/estg_v-01.jpg
+    src: ./assets/estg_v-01.jpg
     alt: IPLeiria - ESTG
   actions:
     - theme: brand
