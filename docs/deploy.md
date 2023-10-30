@@ -17,7 +17,7 @@ Most of the commands in this Tutorial are to run on the Virtual Machine in an SS
 
 This tutorial assumes that we are using the following folder structure. If you want to change that structure please change de commands accordingly:
 
-```ascii
+```txt
 /
 |___var
 |   |___www
