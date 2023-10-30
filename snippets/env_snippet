@@ -1,0 +1,4 @@
+# .env
+# Local Development Environment Configuration
+VITE_API_DOMAIN=<YOUR API DOMAIN - http://project.test >
+VITE_WS_CONNECTION=<YOUR WS CONNECTION http://localhost:8080 >
