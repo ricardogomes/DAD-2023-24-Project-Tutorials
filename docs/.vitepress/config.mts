@@ -39,6 +39,14 @@ export default defineConfig({
                 text: "Laravel Authentication - Passport",
                 link: "./passport.md",
               },
+              {
+                text: "Web Sockets - SocketIO",
+                link: "./socketio.md",
+              },
+              {
+                text: "DAD Intermediate Submission",
+                link: "./intermediate.md",
+              },
             ],
           },
         ],
@@ -87,18 +95,6 @@ export default defineConfig({
         ],
       },
     ],
-
-    // sidebar: [
-    //   {
-    //     collapsed: false,
-    //     text: "Tutorials",
-    //     items: [
-    //       { text: "Connect to the VM", link: "/connect" },
-    //       { text: "Install Components", link: "/install" },
-    //       { text: "Deploy Code", link: "/deploy" },
-    //     ],
-    //   },
-    // ],
     footer: {
       message: "IPLeiria | ESTG | EI | DAD 2023/24",
     },

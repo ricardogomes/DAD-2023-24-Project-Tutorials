@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Laravel Authentication with Passport
 
 In this tutorial we will setup Passport as the authentication mechanism for our Laravel REST API.
