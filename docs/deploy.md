@@ -38,7 +38,7 @@ We need to give access to these folders to NGINX, and by default it uses the `ww
 ```bash
 sudo usermod -a -G www-data dad
 sudo chown -R www-data:www-data /var/www/project
-sudo chmod -R g+rw /var/www/projec
+sudo chmod -R g+rw /var/www/project
 ```
 
 ## Deploy Code

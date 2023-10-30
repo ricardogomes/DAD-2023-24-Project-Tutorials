@@ -1,0 +1,57 @@
+{
+  "info": {
+    "name": "DAD 2023/24 Tutorials",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Passport",
+      "item": [
+        {
+          "name": "Login",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "http://localhost/api/auth/login",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"a1@mail.pt\",\n  \"password\": \"123\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "GET Categories - No Auth",
+          "event": [],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost/api/categories"
+          }
+        },
+        {
+          "name": "GET Categories - Auth",
+          "event": [],
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiN2Y5NDZjNWM5ODFjM2MzZjExZDUyOWQ5ODEzOWUwYmVjZGQyMDYzYjNiYjg0MmFjZjQ4NTljMjI1MzBmNzg5M2UxMjhkMjIxMzhkYjBkZmEiLCJpYXQiOjE2OTg2NzU5NTQuNjY4NjksIm5iZiI6MTY5ODY3NTk1NC42Njg2OTQsImV4cCI6MTczMDI5ODM1NC42MjQ1OTYsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.RUIYrwAJCz5SPRes5fTCctzxt3Gjr676TvtEIsgiNLRB_usKm0T7E5GmIUFUUXAiQKmeUV8QL9H-OelVuI6ow9pGYVoEnwI1G_8_vjielu_v8aCI4jlPgNafI1ka-MTZGcCY82QXZpj5QEfHojau13KMHKgEtaR1NHzmvvvr8kkMMIKu3D2q0KiWbrLpCoqozD1qulOh_9Y_-wZe5aTm2ag8dAQZxk7XHJzOdsmSI862Lq9Ek6Um0afDsgoqJMdtd_H0Mz0__2e42En4oZM8mJLirGIcs3pQj7l_csdIgHn62-P8ODu7mD9EByKAWeqr04nxm9LUAQNhrb3SecCZRfqgQA8JDjTxLxOHLbNc_UHsJq7S7XXOcdZfP77N1GH2MreL9D4fbYxrnAXcr3CSUc8F_05pA6K6ejI02N29xf67KwWad-gctdek03VDBOhnZ9SRRCrsnInnMijZA2Cg7Xo6S6h2k5lMUmHJjbb4Jx2WpJa72aqvmSJmGfY0bD0y2NaxJ81vqF-BYhfWD8A8pBchl8P1DorQZ2wayU3-4zJll70yMCjvZTab-HhqodAQWDH4A1fA7mmrCNPrXdK4tKS85tgqBcZ7IyhtuZrliVI2KHpSDc7vHaOf1UZ9lbm13u2Gs3ALJIPFrM8Ejmcoj5wW33L67PbOhLpZNQ7NSks",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "url": "http://localhost/api/categories"
+          }
+        }
+      ]
+    }
+  ],
+  "variable": []
+}

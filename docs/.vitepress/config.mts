@@ -35,6 +35,10 @@ export default defineConfig({
                 text: "IPLeiria - VPN",
                 link: "./vpn.md",
               },
+              {
+                text: "Laravel Authentication - Passport",
+                link: "./passport.md",
+              },
             ],
           },
         ],

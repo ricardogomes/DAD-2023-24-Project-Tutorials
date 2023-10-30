@@ -34,13 +34,18 @@ return [
     | Supported: "session"
     |
     */
-
+    #region guards
     'guards' => [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'api' => [
+            'driver' => 'passport',
+            'provider' => 'users'
+        ]
     ],
+    #endregion guards
 
     /*
     |--------------------------------------------------------------------------
