@@ -26,6 +26,10 @@ export default defineConfig({
               },
               { text: "Install Components", link: "/install" },
               { text: "Deploy Code", link: "/deploy" },
+              {
+                text: "Intermediate Submission",
+                link: "./intermediate.md",
+              },
             ],
           },
           {
@@ -42,10 +46,6 @@ export default defineConfig({
               {
                 text: "Web Sockets - SocketIO",
                 link: "./socketio.md",
-              },
-              {
-                text: "DAD Intermediate Submission",
-                link: "./intermediate.md",
               },
             ],
           },

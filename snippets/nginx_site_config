@@ -1,5 +1,5 @@
 upstream websocket {
-    server localhost:8081;
+    server localhost:8080;
     keepalive 64;
 }
 server {

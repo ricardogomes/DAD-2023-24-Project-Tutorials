@@ -49,10 +49,10 @@ The next step is to get our code into the machine. There are several ways to do 
 
 The VueJS component is going to be handled differently from the rest because we are going to build the static assets, and those are going to the only assest for the deployment.
 
-Before build we need to make sure we have the proper environment variables. create two files on the root of the VueJs Project with the following contents (this code is available in file form in the snippets folder of the [Tutorial Github Repository](https://github.com/ricardogomes/DAD-2023-24-Project-Tutorials))
+Before build we need to make sure we have the proper environment variables. create two files, named `.env.development` and `.env.production` on the root of the VueJs Project with the following contents (this code is available in file form in the snippets folder of the [Tutorial Github Repository](https://github.com/ricardogomes/DAD-2023-24-Project-Tutorials))
 
 <Badge type="danger" text="Local files" />
-<<< ../snippets/env_snippet
+<<< ../snippets/env.development_snippet
 <<< ../snippets/env.production_snippet
 
 Now on our `main.js` file we can use those environment variables:
