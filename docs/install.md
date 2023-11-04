@@ -110,10 +110,13 @@ The result should be mysql shell where we can run SQL commands like `show databa
 
 ### Remote Access
 
-Since we prohibited remote root access we can't connect to the MySQL server from our machines, but we can circumvent this using an SSH tunnel. Some SQL clients allow you to define this in their UI, but can run the following command and then connect to the server like if it was a local one.
+Since we prohibited remote root access we can't connect to the MySQL server from our machines, but we can circumvent this using an SSH tunnel. Some SQL clients allow you to define this in their UI, but can run the following command and then connect to the server like if it was a local one (the command needs to stay running while using the GUI client).
 
 ```bash
+# using ssh-agent
 ssh -L 3306:localhost:3306 dad@<VM_IP>
+# using key paths
+ssh -L 3306:localhost:3306 dad@<VM_IP> -i <PATH_TO_VM_PRIVATE_KEY>
 ```
 
 The second `3306` is the local port, so if we want to use another we can just change it.
