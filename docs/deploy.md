@@ -43,7 +43,7 @@ sudo chmod -R g+rw /var/www/project
 
 ## Deploy Code
 
-The next step is to get our code into the machine. There are several ways to do this. We'll look at two options. The first using `rsync` only woks on Linux, MacOS or Windows in WSL, this option is the less human error prone, but for Windows users we need to setup WSL (see the [Windows WSL Tutoria](./wsl.md)). The second option is mostly for Windows users, but can be used in the other OSs, and it uses a GUI software called Filezilla.
+The next step is to get our code into the machine. There are several ways to do this. We'll look at two options. The first using `rsync` only woks on Linux, MacOS or Windows in WSL, this option is the less human error prone, but for Windows users we need to setup WSL (see the [Windows WSL Tutorial](./wsl.md)). The second option is mostly for Windows users, but can be used in the other OSs, and it uses a GUI software called Filezilla.
 
 ### VueJS Build
 

@@ -47,6 +47,10 @@ export default defineConfig({
                 text: "Web Sockets - SocketIO",
                 link: "./socketio.md",
               },
+              {
+                text: "Windows Subsystem for Linux",
+                link: "./wsl.md",
+              },
             ],
           },
         ],
