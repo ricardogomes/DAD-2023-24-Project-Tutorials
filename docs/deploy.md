@@ -250,7 +250,7 @@ All thats left is to configure NGINX to support these components. We will be usi
 /socket.io  ->  WebSocket Server
 ```
 
-Assuming the PHP-FPM component runs as Unix Socket, and that we setup the Web Sockets Server to listen on port `8080`, this sould be the code we need (this code is available in file form in the snippets folder of the [Tutorial Github Repository](https://github.com/ricardogomes/DAD-2023-24-Project-Tutorials)):
+Assuming the PHP-FPM component runs as Unix Socket, and that we setup the Web Sockets Server to listen on port `8080`, this sould be the code we need (this code is available in file form in the snippets folder of the [Tutorial Github Repository](https://github.com/ricardogomes/DAD-2023-24-Project-Tutorials) ):
 
 <<< ../snippets/nginx_site_config
 
